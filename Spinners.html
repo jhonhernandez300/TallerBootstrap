@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body{padding: 40px;}
+    </style>
+    <title>Spinner</title>
+</head>
+
+<body>
+    <h1>Spinner</h1>
+    <br>
+    <h2>Border spinner</h2>
+    <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <br>
+    <p>"spinner-border" role="status"</p>
+    <p>-> span "sr-only" Loading...</p>
+    <br><br>
+
+    <h2>Colors</h2>
+    <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-secondary" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-success" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-danger" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-warning" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-info" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-light" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-dark" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <br>
+    <p>div "spinner-border text-primary" role="status"<br>
+        -> span "sr-only"<br>
+        "spinner-border text-secondary" role="status"<br>
+        etc.
+    </p>
+    <br><br>
+
+    <h2>Growing spinner</h2>
+    <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-secondary" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-success" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-danger" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-warning" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-info" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-light" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-dark" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <br>
+    <p>div "spinner-grow text-primary" role="status"<br>
+        -> span "sr-only"</p>
+    <br><br>
+
+    <h2>Alignment</h2>
+    <div class="spinner-border m-5" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <br>
+    <p>div "spinner-border m-5" role="status"<br>
+        -> span "sr-only"</p>
+    <br><br>
+
+    <h2>Placement</h2>
+    <div class="d-flex justify-content-center">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <br>
+    <p>div "d-flex justify-content-center"<br>
+        -> div "spinner-border" role="status"<br>
+        -> span "sr-only"
+    </p>
+    <br>
+    <div class="clearfix">
+        <div class="spinner-border float-right" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <br>
+    <p>div "clearfix"<br>
+        -> div "spinner-border float-right" role="status"<br>
+        -> span "sr-only"
+    </p>
+    <br><br>
+
+    <h2>Size</h2>
+    <div class="spinner-border spinner-border-sm" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow spinner-grow-sm" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <br>
+    <p>div "spinner-border spinner-border-sm" role="status"<br>
+        -> span "sr-only"<br>
+        div "spinner-grow spinner-grow-sm" role="status"<br>
+        -> span "sr-only"
+    </p>
+    <br>
+    <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <br>
+    <p>div "spinner-border" style="width: 3rem; height: 3rem;" role="status"<br>
+        -> span "sr-only"<br>
+        div "spinner-grow" style="width: 3rem; height: 3rem;" role="status"<br>
+        -> span "sr-only"
+    </p>
+    <br><br>
+
+    <h2>Buttons</h2>
+    <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        <span class="sr-only">Loading...</span>
+    </button>
+    <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        Loading...
+    </button>
+    <br>
+    <p>button "btn btn-primary" type="button" disabled<br>
+        -> span "spinner-border spinner-border-sm" role="status" aria-hidden="true"<br>
+        -> span "sr-only"<br>
+        <-button btn btn-primary" type="button" disabled<br>
+            "spinner-border spinner-border-sm" role="status" aria-hidden="true"<br>
+            -> span "sr-only"
+    </p>
+    <br>
+    <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+        <span class="sr-only">Loading...</span>
+    </button>
+    <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+        Loading...
+    </button>
+    <br>
+    <p>button "btn btn-primary" type="button" disabled<br>
+        -> span "spinner-grow spinner-grow-sm" role="status" aria-hidden="true"<br>
+        -> span "sr-only"<br>
+        <-button btn btn-primary" type="button" disabled<br>
+            "spinner-grow spinner-grow-sm" role="status" aria-hidden="true"<br>
+            -> span "sr-only"
+    </p>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
