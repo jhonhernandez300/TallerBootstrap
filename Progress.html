@@ -12,37 +12,36 @@
 
     <title>Hello, world!</title>  
     <style>
-      body{padding: 40px;}
-  </style>  
+        body{padding: 40px;}
+    </style>  
 </head>
 
 <body>
-    <h2>BreadCrumb</h2>
-    <nav aria-label="breadcrumb">
-        <p>nav aria-label="breadcrumb"</p>
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item active" aria-current="page">ol breadcrumb -> li breadcrumb-item active</li>
-        </ol>
-    </nav>
-      
-      <nav aria-label="breadcrumb">
-        <p>aria-label="breadcrumb"</p>
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">ol breadcrumb -> li breadcrumb-item </a></li>
-          <li class="breadcrumb-item active" aria-current="page">li breadcrumb-item active</li>
-        </ol>
-      </nav>
-      
-      <nav aria-label="breadcrumb">
-        <p>aria-label="breadcrumb"</p>
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">ol breadcrumb -> li breadcrumb-item </a></li>
-          <li class="breadcrumb-item"><a href="#">breadcrumb-item active</a></li>
-          <li class="breadcrumb-item active" aria-current="page">li breadcrumb-item active</li>
-        </ol>
+    <h2>Progress</h2>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <br>
+    <p>div progress</p>
+    <p>-> div "progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></p>
     <br><br>
 
- 
+    <div class="progress">
+        <div class="progress-bar bg-dark" role="progressbar" style="width: 28%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+    </div>
+    <br>
+    <p>div progress</p>
+    <p>-> div "progress-bar" role="progressbar" style="width: 28;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></p>
+    <br><br>
+
+    <div class="progress">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <br>
+    <p>div progress</p>
+    <p>-> div "progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></p>
+    <br><br>
+
 
 
     <!-- Optional JavaScript -->

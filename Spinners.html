@@ -23,8 +23,9 @@
         <span class="sr-only">Loading...</span>
     </div>
     <br>
-    <p>"spinner-border" role="status"</p>
-    <p>-> span "sr-only" Loading...</p>
+    <p>"div "spinner-border" role="status"</p>
+    <p>-> span "sr-only"<br>
+        -> Loading...</p>
     <br><br>
 
     <h2>Colors</h2>
@@ -55,8 +56,7 @@
     <br>
     <p>div "spinner-border text-primary" role="status"<br>
         -> span "sr-only"<br>
-        "spinner-border text-secondary" role="status"<br>
-        etc.
+        -> loading <br>        
     </p>
     <br><br>
 
@@ -96,7 +96,9 @@
     </div>
     <br>
     <p>div "spinner-border m-5" role="status"<br>
-        -> span "sr-only"</p>
+        -> span "sr-only"<br>
+        -> loading
+    </p>
     <br><br>
 
     <h2>Placement</h2>
@@ -108,7 +110,8 @@
     <br>
     <p>div "d-flex justify-content-center"<br>
         -> div "spinner-border" role="status"<br>
-        -> span "sr-only"
+        -> span "sr-only" <br>
+        -> loading
     </p>
     <br>
     <div class="clearfix">
@@ -119,7 +122,8 @@
     <br>
     <p>div "clearfix"<br>
         -> div "spinner-border float-right" role="status"<br>
-        -> span "sr-only"
+        -> span "sr-only"<br>
+        -> loading
     </p>
     <br><br>
 
@@ -132,9 +136,11 @@
     </div>
     <br>
     <p>div "spinner-border spinner-border-sm" role="status"<br>
-        -> span "sr-only"<br>
+        -> span "sr-only"<br>        
+        -> loading
         div "spinner-grow spinner-grow-sm" role="status"<br>
-        -> span "sr-only"
+        -> span "sr-only"<br>
+        -> loading
     </p>
     <br>
     <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
@@ -163,10 +169,12 @@
     <br>
     <p>button "btn btn-primary" type="button" disabled<br>
         -> span "spinner-border spinner-border-sm" role="status" aria-hidden="true"<br>
-        -> span "sr-only"<br>
+        span "sr-only"<br>        
+        -> loading<br>
         <-button btn btn-primary" type="button" disabled<br>
             "spinner-border spinner-border-sm" role="status" aria-hidden="true"<br>
-            -> span "sr-only"
+            -> span "sr-only"<br>
+            -> loading
     </p>
     <br>
     <button class="btn btn-primary" type="button" disabled>
@@ -180,7 +188,7 @@
     <br>
     <p>button "btn btn-primary" type="button" disabled<br>
         -> span "spinner-grow spinner-grow-sm" role="status" aria-hidden="true"<br>
-        -> span "sr-only"<br>
+        span "sr-only"<br>
         <-button btn btn-primary" type="button" disabled<br>
             "spinner-grow spinner-grow-sm" role="status" aria-hidden="true"<br>
             -> span "sr-only"
