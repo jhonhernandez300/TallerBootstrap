@@ -8,10 +8,20 @@
 <body>
     <form class="box" action="try.html" method="post">
 <h1>login</h1>
-    <input type="text" name="" placeholder="Username">
-    <input type="password" name="" placeholder="Password">
-    <input type="submit" name="" value="login">
-    <input type="back" name="" value="back">
+    <input type="text" name="Username" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
+    <input type="submit" value="login">
+    <input type="button" name="forget" value="forget your password?" onclick="myFunction()">
+    <input type="button" name="signup" value="signup" onclick="myFunction1()">
+    
     </form>
+    <script>
+      function myFunction(){
+        window.location= "forget.html";
+      }
+      function myFunction1(){
+        window.location= "signup.html";
+      }
+    </script>
 </body>
   </html>
